@@ -1,0 +1,16 @@
+library ieee;
+use ieee.std_logic_1164.all;
+entity prog00 is port(
+a,b,c,d: in std_logic;
+x,y: out std_logic);
+
+end prog00;
+
+architecture prog of prog00 is 
+begin
+x <= (A and B) or (not A and not D) or
+	(B and not D) or (not A and B) or
+	(C and not D and A) or (not A and D) or
+	(C and D) or (not A and not B and not C);
+y <= (b or (not a) or c);
+end prog;

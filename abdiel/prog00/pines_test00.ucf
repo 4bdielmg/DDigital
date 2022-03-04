@@ -1,0 +1,9 @@
+#Entradas
+net a loc = R17 ;
+net b loc = N17 ;
+net c loc = L13 ;
+net d loc = L14 ;
+
+#SALIDAS
+net x loc = R4;
+net y loc = F4;
